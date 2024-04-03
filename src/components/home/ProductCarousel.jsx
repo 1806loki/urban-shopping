@@ -13,7 +13,7 @@ const ProductCarousel = () => {
   };
 
   return (
-    <div className="w-full h-1/2 flex justify-center items-center">
+    <div className="w-full h-72 sm:h-72 md:h-72 lg:h-screen flex justify-center items-center">
       <div className="p-4 w-3/4 h-3/4">
         <div className="w-full flex justify-between  items-center pb-4">
           <h1 className="text-3xl font-semibold">Bestseller</h1>
@@ -30,7 +30,7 @@ const ProductCarousel = () => {
         <div className="h-full">
           {activeIndex === 0 && (
             <div className="h-full grid grid-cols-3 grid-rows-3    gap-x-10 gap-y-10">
-              <div className="col-span-2 row-span-3 bg-blue-800 w-full"></div>
+              <div className="col-span-2 row-span-3  bg-blue-800 w-full sm:w-full"></div>
               <div className="col-span-1 row-span-1 bg-green-300 hidden md:block"></div>
               <div className="col-span-1 row-span-2 bg-blue-400 hidden md:block"></div>
             </div>

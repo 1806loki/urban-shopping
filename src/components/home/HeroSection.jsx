@@ -1,9 +1,6 @@
 const HeroSection = () => {
   return (
-    <div className="w-full h-1/2 bg-gray-200  ">
-      
-      <img src="" alt="" />
-    </div>
+    <div className="w-full h-72  sm:h-72  md:h-72 lg:h-screen bg-red-200  "></div>
   );
 };
 

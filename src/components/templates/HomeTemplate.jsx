@@ -3,7 +3,7 @@ import ProductCarousel from "../home/ProductCarousel";
 
 const HomeTemplate = () => {
   return (
-    <div className="h-[200vh]">
+    <div >
       <HeroSection />
       <ProductCarousel />
     </div>
