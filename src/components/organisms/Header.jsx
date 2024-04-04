@@ -31,7 +31,7 @@ const Header = () => {
   };
 
   return (
-    <nav className="bg-white border-gray-200 dark:bg-gray-900">
+    <nav className=" sticky top-0 bg-white border-gray-200 dark:bg-gray-900">
       <div className="bg-white text-black text-center py-3">
         <h1 className="text-4xl font-bold">urban</h1>
       </div>

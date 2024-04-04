@@ -27,7 +27,9 @@ const ProductCard = ({ image, title, price, id }) => {
       <h3 className="text-lg font-semibold">{truncate(title)}</h3>
       <p className="text-gray-600">${price}</p>
       <button
-        className="border-2 border-black text-sm py-2 px-14"
+        className={`text-sm py-2 px-14 ${
+          isItemInCart ? "bg-red-500 text-white" : "border-2 border-black"
+        }`}
         onClick={handleCart}
       >
         {isItemInCart ? "Remove from Cart" : "Add to Cart"}
